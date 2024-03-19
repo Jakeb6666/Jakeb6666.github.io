@@ -158,12 +158,6 @@ footer {
 /*Mobile media queries start*/
 @media screen and (max-width: 480px) {
 
-    html {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
     header {
        text-align: center;
        margin-left: 50px;
@@ -178,7 +172,7 @@ footer {
     nav a {
         margin-top: 25px;
         display: block;
-        text-align: center;
+        margin-left: -30px;
     }
 
     #about {
@@ -188,12 +182,12 @@ footer {
      margin-left: 50px;
      padding-top: 150px;
     }
-
+    
     .project {
         text-align: center;
         width: 100%;
         height: 50%;
-        margin-left: 95px;
+        margin-left: 105px;
     }
 
     .project img {
@@ -252,11 +246,11 @@ footer {
 
     #skill img {
         float: left;
-        display: inline-block;
         width: 100px;
         height: 100px;
         padding: 20px 20px 50px 20px;
     }
+
 }
 
 /*Tablet media queries end*/
