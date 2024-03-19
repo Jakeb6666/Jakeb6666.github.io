@@ -177,7 +177,7 @@ footer {
     nav a {
         margin-top: 25px;
         display: block;
-        margin-left: 20px;
+        text-align: center;
     }
 
     #about {
