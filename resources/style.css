@@ -1,0 +1,156 @@
+html {
+    background-color: #F0FFFF;
+    z-index: 1;
+}
+
+header {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+nav {
+    float: right;
+    margin-right: 20%;
+    margin-top: -50px;
+    
+}
+
+/* Making the nav elements act like a button */
+nav a {
+    text-decoration: none;
+    color: black;
+    /*padding-left: 100px;*/
+    font-size: 15px;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: darkgray;
+    border-width: 0;
+}
+
+#about {
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.project img {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.project {
+    margin-left: 260px;
+    margin-top: 100px;
+    width: 40%;
+}
+
+h2 {
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+
+.project li {
+    display: block;
+    margin-top: 50px;
+    font-size: 18px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /*padding-left: 100px;*/
+    font-size: 15px;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 15px 25px;
+}
+
+.project li:hover {
+    background-color: darkgray;
+    border-width: 0;
+}
+
+#skill {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#skill img {
+    width: 75px;
+    height: 75px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+ul li::marker {
+    content: none;
+}
+
+.project li:hover {
+    cursor: pointer;
+}
+
+#project img {
+    display: none;
+}
+
+#heading3 {
+    margin-left: -870px;
+    font-size: 25px;
+}
+
+#phone {
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+#phone a {
+    text-decoration: none;
+    color: black;
+}
+
+#feedback {
+    margin-left: 20%;
+    margin-top: -100px;
+}
+
+#git {
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#email {
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#phone {
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
