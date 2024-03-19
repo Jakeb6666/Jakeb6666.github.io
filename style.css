@@ -172,7 +172,7 @@ footer {
     nav a {
         margin-top: 25px;
         display: block;
-        margin-left: -30px;
+        text-align: center;
     }
 
     #about {
@@ -187,7 +187,7 @@ footer {
         text-align: center;
         width: 100%;
         height: 50%;
-        margin-left: 105px;
+        margin-left: 95px;
     }
 
     .project img {
@@ -196,7 +196,7 @@ footer {
         justify-content: center;
         width: 100%;
         height: 100%;
-        margin-left: -75px;
+        margin-left: -60px;
     }
  
     h2 {
@@ -250,6 +250,10 @@ footer {
         height: 100px;
         padding: 20px 20px 50px 20px;
     }
+
+}
+
+/*Tablet media queries end*/
 
 }
 
