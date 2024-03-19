@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="resources/style.css">
 
+    </head>
+
+    <body>
+
+        <header><h1>Jake Brown</h1></header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Me!</a>
+        </nav>
+
+        <h2 id="contacth2">My Contact Information</h2>
+
+        <main>
+            <p id="feedback">If you have any feedback or have any projects you want to share, let me know!</p>        
+        </main>
+
+        <footer>
+            <a href="https://github.com/" target="_blank"><img id="git" src="/resources/images/availablecarlogo.jpg" alt="Git Logo"></a>
+            <a href="mailto:jakebrown6666@gmail.com" target="_blank"><img id="email" src="/resources/images/email.jpg" alt="Email Icon"></a>
+            <a href="tel:07380666004" target="_blank"><img id="phone" src="/resources/images/phone.jpeg" alt="Telephone Icon"></a>
+        </footer>
+        
+    </body>
+</html>
