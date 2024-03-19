@@ -156,8 +156,12 @@ footer {
 }
 
 /*Mobile media queries start*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
+    html {
+        text-align: center;
+        width: 100%;
+    }
 
     header {
        text-align: center;
@@ -182,7 +186,7 @@ footer {
      margin-left: 50px;
      padding-top: 150px;
     }
-    
+
     .project {
         text-align: center;
         width: 100%;
